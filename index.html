@@ -15,10 +15,12 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body style="background-color: #0f182b">
     <header>
-      <nav class="navbar navbar-expand-lg bg-primary">
+      <!-- start navbar  -->
+      <nav class="navbar navbar-expand-lg border-bottom border-primary">
         <div class="container-fluid">
+          <!-- page logo tilte  -->
           <a class="navbar-brand text-light fw-bold" href="#">Md Kawsar</a>
           <button
             class="navbar-toggler"
@@ -31,7 +33,12 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            style="max-width: 70%"
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <!-- navbar items  -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
@@ -49,6 +56,18 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -69,6 +88,32 @@
         </div>
       </nav>
     </header>
+    <!-- top section  -->
+    <div
+      style="background-color: transparent; height: 500px; overflow: hidden"
+      class="card mb-3"
+    >
+      <div class="row g-0 align-items-center">
+        <div class="col-md-6 d-flex justify-content-center">
+          <img
+            src="images/My-Photo.png"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title text-light fs-1">I am a Developer</h5>
+            <p style="width: 80%" class="card-text text-white">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <button type="button" class="btn btn-primary">Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- bootstrap script  -->
     <script
